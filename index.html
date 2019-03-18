@@ -1,1 +1,129 @@
-html
+<!-- wp:html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400i|Pacifico" rel="stylesheet">
+	<title>Test 3</title>
+</head>
+<body class="lato">
+	<div class="espacio-arriba mx-auto sin-float">
+		<h2 class="pacifico verde">Hola Jhon</h2>
+		<p class="text-justify">Te felicitamos por ir en esta parte del proceso, a continuación te dejamos tu puntuación, te recordamos que los dos puntajes más altos reflejas tus temperamentos dominantes (te recomendamos leer más acerca de este tema dando <a style="color: #009899" href="https://docs.google.com/document/d/1nB62iXhhxRZ0I5h1iDMhORP8G2nSN3xsi0Zot0nwXCo/edit?ts=5c79e922"> Clic aquí</a>).</p>
+		<p>Puntaje obtenido:</p>
+		<nav>
+			<ul>
+				<li>Puntaje Determinante <strong id="Determinante">14</strong></li>
+				<li>Puntaje Influyente <strong id="Influyente">14</strong></li>
+				<li>Puntaje Sociable <strong id="Sociable">18</strong></li>
+				<li>Puntaje Comprometido <strong id="Comprometido">18</strong></li>
+			</ul>
+		</nav>
+		<article>
+			<p>Ten en cuenta que:</p>
+			<script type="text/javascript">
+				var det =document.getElementById("Determinante").innerHTML;
+				var inf =document.getElementById("Influyente").innerHTML;
+				var soc =document.getElementById("Sociable").innerHTML;
+				var com =document.getElementById("Comprometido").innerHTML;
+				det = parseInt(det);
+				inf = parseInt(inf);
+				soc = parseInt(soc);
+				com = parseInt(com);
+				if (det >= inf && det >= soc && det >= com) 
+				{
+					document.write("<strong>Tienes un temperamento Determinante</strong>");
+					document.write("<br>");
+				}
+				if (inf >= det && inf >= soc && inf >= com) 
+				{
+					document.write("<strong>Tienes un temperamento Influyente</strong>");
+				}
+				if (soc >= det && soc >= inf && soc >= com) 
+				{
+					document.write("<strong>Tienes un temperamento Sociable</strong>");
+					document.write("<br>");
+				}
+				if (com >= det && com >= inf && com >= soc) 
+				{
+					document.write("<strong>Tienes un temperamento Comprometido</strong>");
+					document.write("<br>");
+				}
+			</script>
+			<br>
+			<p class="text-justify">Por favor continua ahora con el Test de dones espirituales (o si deseas puedes realizarlo después desde nuestra página principal de NextSteps).</p>
+		</article>
+		<p>Bendiciones</p>
+		<p style="color: #009899" class="sin-margen">Iglesia Cristiana Ekklesia Viva</p>
+		<p style="color:#666666" class="sin-margen">Amar - Servir - Transformar</p>
+		<p style="color:#006666" class="sin-margen">Carrera 22# 164-84, Bogotá</p>
+		<p style="font-size:10px" class="sin-margen"><strong>SÍGUENOS EN LAS REDES</strong></p>
+		<a href="http://www.ekklesiaviva.co" rel="noopener noreferrer" target="_blank" style="font-size:13px"style="color:#eee">ekklesiaviva.co</a>
+		<div>
+			<a href="http://www.facebook.com/VivaEkklesia" rel="noopener noreferrer" target="_blank">
+				<span style="font-size:13px"><span style="color:#009899">Facebook</span></span>
+			</a>
+			<span style="background-color:#ffffff">
+				<span style="font-family:arial,sans-serif">
+					<span style="font-size:13px">
+						<span style="color:#009899">&nbsp;</span>
+					</span>
+					<span style="font-size:13px">
+						<span style="color:#009899">|</span>
+					</span>
+						<span style="font-size:13px">
+							<span style="color:#009899">&nbsp;
+							</span>
+						</span>
+				</span>
+			</span>
+			<a href="http://www.instagram.com/vivaekklesia" rel="noopener noreferrer" target="_blank">
+				<span style="font-size:13px">
+					<span style="color:#009899">Instagram</span>
+				</span>
+			</a>
+			<span style="background-color:#ffffff">
+				<span style="font-family:arial,sans-serif">
+					<span style="font-size:13px">
+						<span style="color:#009899">&nbsp;</span>
+					</span>
+					<span style="font-size:13px">
+						<span style="color:#009899">|</span>
+					</span>
+					<span style="font-size:13px">
+						<span style="color:#009899">&nbsp;</span>
+					</span>
+				</span>
+			</span>
+			<a href="https://www.youtube.com/channel/UCeTt6-0k_l_c3beECHq0mmQ" rel="noopener noreferrer" target="_blank" >
+				<span style="font-size:13px">
+					<span style="color:#009899">YouTube&nbsp;</span>
+				</span>
+			</a>
+			<span style="background-color:#ffffff">
+				<span style="font-family:arial,sans-serif">
+					<span style="font-size:13px">
+						<span style="color:#009899">&nbsp;</span>
+					</span>
+					<span style="font-size:13px">
+						<span style="color:#009899">|</span>
+					</span>
+					<span style="font-size:13px">
+						<span style="color:#009899">&nbsp;</span>
+					</span>
+				</span>
+			</span>
+			<a href="http://www.twitter.com/vivaekklesia" rel="noopener noreferrer" target="_blank">
+				<span style="font-size:13px">
+					<span style="color:#009899">Twitter</span>
+				</span>
+			</a>
+		</div>
+		<img src="https://ekklesiaviva.co/wp-content/uploads/2017/07/LogoWEB.png" width="150" height="150" tabindex="0">
+	</div>
+	<script type="text/javascript" src="js/master.js"></script>
+</body>
+</html>
+<!-- /wp:html -->
